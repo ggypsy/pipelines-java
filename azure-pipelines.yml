@@ -24,7 +24,7 @@ steps:
   inputs:
     azureSubscription: 'Microsoft Azure(4ae9d620-765e-40a2-8cbe-8c6da5da4afa)'
     appType: 'webAppLinux'
-    appName: 'swTestAPP01'
+    appName: 'swTestAPP-RG'
     package: '$(System.DefaultWorkingDirectory)/**/*.war'
     runtimeStack: 'TOMCAT|8.5-jre8'
     
